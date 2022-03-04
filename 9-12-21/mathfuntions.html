@@ -1,0 +1,36 @@
+<html>
+<body>
+<label><b><u>Math functions</u></b></label><br>
+<br><label>enter number</label>
+<input type="text" name="text1" id="idno1">
+<!--<label>enter second number</label>
+<input type="text" name="text2" id="idno2">-->
+<script language="javascript" type="text/javascript">
+
+
+function add()
+{var a,b,c,d,e,f;
+a=(document.getElementById("idno1").value);
+b=Math.round(a);
+c=Math.sqrt(a);
+d=Math.ceil(a);
+e=Math.floor(a);
+f=Math.abs(a);
+(document.getElementById("ans").value)=b;
+(document.getElementById("ans1").value)=c;
+(document.getElementById("ans2").value)=d;
+(document.getElementById("ans3").value)=e;
+(document.getElementById("ans4").value)=f;
+
+}
+</script>
+<br>
+<button onclick="add()">Round</button>
+<input type="text" id="ans"><br>
+<button onclick="add()">Square Root</button><input type="text" id="ans1"><br>
+<button onclick="add()">Ceiling</button><input type="text" id="ans2"><br>
+<button onclick="add()">Floor</button><input type="text" id="ans3"><br>
+<button onclick="add()">Absolute</button><input type="text" id="ans4"><br>
+
+</body>
+</html>

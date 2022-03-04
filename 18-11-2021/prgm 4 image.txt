@@ -1,0 +1,6 @@
+<html>
+<head>
+<title>image</title></head>
+<body>
+<img src="C:\Users\DELL\Desktop\download(3).jpg" height="510%" width="700%">
+</body></html>

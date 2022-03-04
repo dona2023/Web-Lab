@@ -1,0 +1,8 @@
+<html>
+<head><title>links</title></head>
+<body bgcolor="pink">
+<a href="A1.html"><u><b>NAVIGATION FRAME</B></U><br>
+<a href="B1.html"><u><b>MIXED FRAME</B></U><br>
+<a href="C1.html"><u><b>H&V FRAME</B></U></body></html>
+
+
